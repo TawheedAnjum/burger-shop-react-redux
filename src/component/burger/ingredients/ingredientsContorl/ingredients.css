@@ -1,0 +1,38 @@
+.ingredients{
+    margin-right: 2rem;
+    display: flex;
+}
+
+.ingredients img{
+    display: block;
+    position: relative;
+}
+
+.top{
+    height: 110.66px;
+    width: auto;
+    left: 6.5rem;
+    margin-bottom: .8rem;
+}
+.salad{
+    height: 53.315px;
+    width: auto;
+    left: 6.5rem;
+}
+.chees{
+    height: 40px;
+    width: auto;
+    left: 5rem;
+    margin-bottom: 1.5rem;
+}
+.meat{
+    height: 63px;
+    width: auto;
+    left: 6.5rem;
+    margin-bottom: 1.5rem;
+}
+.bottom{
+    height: 150px;
+    width: auto;
+}
+

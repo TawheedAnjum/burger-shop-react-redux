@@ -1,0 +1,7 @@
+.userInfo{
+    height: 20px;
+    width: 250px;
+    margin-left: 1rem;
+    padding: 15px;
+    box-shadow: 0 2px 2px rgba(163, 163, 163, 0.096), 0 1px 2px rgba(0, 0, 0, 0.23)
+}

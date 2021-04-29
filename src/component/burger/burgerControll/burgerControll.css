@@ -1,0 +1,39 @@
+.burgerControll{
+    text-align: center;
+    margin-left: 2rem;
+}
+.burgerheader{
+    height: 220px;
+    width: auto;
+}
+.orderbtn{
+    padding:  15px 40px;
+    font-size: 1rem;
+    background-color: #557571;
+    color: white;
+    margin-top: 20px;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.22);
+}
+
+.orderbtn:hover{
+    padding:  15px 50px;
+    font-size: 1rem;
+    transition: all 0.5s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+.orderbtn:disabled{
+    padding:  15px 40px;
+    font-size: 1rem;
+    background-color: rgb(235,28,36);
+    color: white;
+    margin-top: 20px;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.22);
+}
+.importbtn{
+    margin-top: 20px;
+}

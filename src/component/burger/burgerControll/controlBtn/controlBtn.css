@@ -1,0 +1,66 @@
+/* btn */
+.btn{
+    padding:  8px 15px;
+    background-color: white;
+    font-size: 1.2rem;
+    margin-right: 1px;
+    border: .5px solid rgb(236, 236, 236);
+    border-radius: 5px;
+    font-weight: bold;
+    color: #333333
+}
+
+.btn:hover {
+  background-color: #557571;
+  color: #fff;
+  transition: all 0.3s ease 0s;
+}
+
+.btn:disabled{
+    color: rgba(0, 0, 0, 0.377);
+    background-color:white
+}
+
+/* counter btn */
+.counter:disabled{
+    padding:  11.2px 15px;
+    color: #333333;
+    font-weight: normal;
+    font-size: 1rem;
+}
+.counter:hover{
+    background-color: white;
+}
+
+.controlName{
+    width: 80px;
+    padding: 8px 15px;
+    margin-left: 1rem;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    background-color:  #333333;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.25);
+    transition: all 0.8s ease 0s;
+    cursor: pointer;
+    outline: none;
+    font-size: 1rem;
+}
+
+.counterControl{
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.8s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+.controllBtn{
+    margin-bottom: 10px;
+}
+
+.controllBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

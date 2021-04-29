@@ -1,0 +1,11 @@
+.orderSummary{
+    color: #333333;
+    font-size: 1rem;
+}
+.checkout{
+    font-weight: bold;
+    color: #eb1c24;
+}
+.information{
+    display: flex;
+}
