@@ -1,0 +1,11 @@
+.navItem{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-size: 1rem;
+}
+.navItem li a{
+    margin-left:2.5rem;
+    text-decoration: none;
+    color: black;
+}

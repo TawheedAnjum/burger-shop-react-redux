@@ -1,13 +1,13 @@
 import React from 'react';
 import './layout.css';
 
+import Navbar from "../navbar/Navbar";
 
 const Layout = (props) => {
     return (
       <div className={"container"}>
-        <header className="header">
-          <div>navbar</div>
-          <div>navbar</div>
+        <header>
+          <div><Navbar /></div>
         </header>
         <main>
             {props.children}
