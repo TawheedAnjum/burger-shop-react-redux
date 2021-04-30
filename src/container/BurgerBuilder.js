@@ -14,14 +14,14 @@ class App extends Component {
   };
   state = {
     ingredients: {
-      salad: 1,
+      salad: 0,
       chees: 0,
-      meat: 2,
+      meat: 0,
     },
     totalPrice: 20,
     btnEnable: false,
-    purchasable: true,
-    purchasing: false
+    purchasable: false,
+    purchasing: false,
   };
 
   render() {
@@ -43,6 +43,7 @@ class App extends Component {
               items={this.state.ingredients}
               itemPrice={this.price}
               cancel={this.cancelHandeler}
+              submit={this.submitHandeler}
             />
           </Model>
         </div>
@@ -51,11 +52,14 @@ class App extends Component {
   }
 
   orderSummaryHandeler = () => {
-    this.setState({purchasable: true})
-  }
+    this.setState({ purchasable: true });
+  };
   cancelHandeler = () => {
-    this.setState({purchasable: false})
-  }
+    this.setState({ purchasable: false });
+  };
+  submitHandeler = () => {
+    alert("sumited")
+  };
 
   btnEnableState = (ingredient) => {
     const updateIngredients = Object.keys(this.state.ingredients)

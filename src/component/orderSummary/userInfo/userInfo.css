@@ -1,7 +1,39 @@
 .userInfo{
-    height: 20px;
+    min-height: 20px;
     width: 250px;
     margin-left: 1rem;
     padding: 15px;
     box-shadow: 0 2px 2px rgba(163, 163, 163, 0.096), 0 1px 2px rgba(0, 0, 0, 0.23)
+}
+.checkoutInfo{
+    padding-left:15px;
+    padding-top:8px;
+    margin-bottom: 30px;
+    font-size:1rem
+}
+.checkoutInfo hr{
+    border: .5px solid rgb(212, 212, 212);
+}
+table {
+    border-collapse: collapse;
+}
+.userInfo table th{
+    font-size: .9rem;
+    color: #333;
+    width: 120px;
+    font-weight: normal;
+    text-align: left;
+    padding: 0 15px;
+}
+.userInfo table th.infoValue{
+    font-size: 1rem;
+    color: #333;
+    font-weight: bold;
+    text-align: right;
+}
+.userInfo table th.totalValue{
+    font-size:1.1rem;
+}
+.userInfo table tr{
+    border-bottom: 20px solid transparent;
 }

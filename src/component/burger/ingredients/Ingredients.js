@@ -1,6 +1,7 @@
 import React from 'react';
 
 import IngedientsControll from './ingredientsContorl/IngredientsControl'
+import "./ingredientsContorl/ingredients.css";
 
 
 const Ingredients = (props) => {

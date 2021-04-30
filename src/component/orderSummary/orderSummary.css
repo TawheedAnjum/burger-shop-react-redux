@@ -9,3 +9,7 @@
 .information{
     display: flex;
 }
+.summaryBtn{
+    display: flex;
+    justify-content: center;
+}
