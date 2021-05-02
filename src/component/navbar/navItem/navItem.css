@@ -8,4 +8,8 @@
     margin-left:2.5rem;
     text-decoration: none;
     color: black;
+    padding: 0px 5px 5px 5px;
+}
+.navItem a.active{
+    border-bottom: 2.5px solid #eb1c24;
 }

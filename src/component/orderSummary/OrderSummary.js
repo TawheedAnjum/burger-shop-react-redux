@@ -3,7 +3,6 @@ import React from 'react'
 import "./orderSummary.css";
 import Price from "./price/Price";
 import IngredientInfo from "./ingredientInfo/IngredientInfo";
-import UserInfo from "./userInfo/UserInfo";
 import OrderSummaryBtn from "./summaryBtn/OrderSummaryBtn";
 
 const OrderSummay = (props) => {
@@ -27,9 +26,9 @@ const cartInfo = Object.keys(props.items).map((i) => {
 
   return (
     <div className="orderSummary">
-      <p>
+      <h3 style={{textAlign:'center'}}>
         Home/<span className="checkout">Cart</span>
-      </p>
+      </h3>
       <div className="information">
         <div>
           <IngredientInfo
@@ -41,7 +40,7 @@ const cartInfo = Object.keys(props.items).map((i) => {
           />
           {cartInfo}
         </div>
-        <UserInfo tPrice={props.totalPrice} />
+        {/* <UserInfo tPrice={props.totalPrice} /> */}
       </div>
       <div className="summaryBtn">
         <OrderSummaryBtn

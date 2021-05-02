@@ -1,16 +1,27 @@
 import React from 'react'
 import "./navItem.css"
+import { NavLink } from "react-router-dom";
+
 const NavItem = () => {
     return (
       <ul className="navItem">
         <li>
-          <a href="http://localhost:3000/">Home</a>
+          <NavLink to="/" exact>
+            Home
+          </NavLink>
         </li>
         <li>
-          <a href="http://localhost:3000/">Checkout</a>
+          <NavLink
+            to="/checkout"
+            isActive={(match, location) =>
+              location.search
+            }
+          >
+            Checkout
+          </NavLink>
         </li>
         <li>
-          <a href="http://localhost:3000/">Login</a>
+          <NavLink to="/login">Login</NavLink>
         </li>
       </ul>
     );

@@ -1,0 +1,22 @@
+.formPossition{
+    display: flex;
+    justify-content: center;
+}
+.formInput{
+    margin: 15px 0px;
+}
+.formInput label{
+    color: rgba(0, 0, 0, 0.5);
+    padding-left: 12px;
+}
+.formInput input{
+    margin-top: 5px;
+    padding: 10px 12px;
+    outline: none;
+    width: 350px;
+    border: none;
+    background-color: rgb(240, 240, 240);
+    border-radius: 3px;
+    font-size: 1rem;
+    color: rgb(83, 83, 83);
+}

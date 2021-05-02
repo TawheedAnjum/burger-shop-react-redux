@@ -1,10 +1,10 @@
 import React, { Component } from "react";
-import Aux from "../hoc/Auxi";
+import Aux from "../../hoc/Auxi";
 
-import Ingredients from "../component/burger/ingredients/Ingredients";
-import BurgerControll from "../component/burger/burgerControll/BurgerControll";
-import Model from "../component/UI/model/Model";
-import OrderSummary from "../component/orderSummary/OrderSummary";
+import Ingredients from "../../component/burger/ingredients/Ingredients";
+import BurgerControll from "../../component/burger/burgerControll/BurgerControll";
+import Model from "../../component/UI/model/Model";
+import OrderSummary from "../../component/orderSummary/OrderSummary";
 
 class App extends Component {
   price = {
@@ -58,7 +58,10 @@ class App extends Component {
     this.setState({ purchasable: false });
   };
   submitHandeler = () => {
-    alert("sumited")
+    this.props.history.push({
+      pathname: '/chechout',
+      search:"?" +this.state.totalPrice
+    });
   };
 
   btnEnableState = (ingredient) => {

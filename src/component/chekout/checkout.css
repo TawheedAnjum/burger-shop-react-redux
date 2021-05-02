@@ -1,0 +1,26 @@
+.cartTotalPeice{
+    margin-top: .8rem;
+    padding-left: 10px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.cartAction{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+
+.submitOrder{
+    padding: 12px 30px;
+    background-color: #eb1c24;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+.submitOrder:hover{
+    background-color: #ff0109;
+}

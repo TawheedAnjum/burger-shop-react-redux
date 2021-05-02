@@ -14,7 +14,7 @@ const IngredientInfo = (props) => {
             <th>
               <IngredientInfoImg image={props.imgInfo} />
             </th>
-            <th>{props.headerName}</th>
+            <th>{props.headerName.toUpperCase()}</th>
             <th>{props.quantity}x</th>
             <th>{props.taka}tk</th>
           </tr>
