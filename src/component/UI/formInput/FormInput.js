@@ -5,13 +5,16 @@ const FormInput = (props) => {
     return (
       <div className="formPossition">
         <div className="formInput">
-          <label for={props.IdName}>{props.label}</label>
-          <br />
-          <input
-            type={props.inputType}
-            id={props.IdName}
-            value={props.inputValue}
-          />
+          <label htmlFor={props.IdName}>
+            {props.label}
+            <br />
+            <input
+              type={props.inputType}
+              id={props.IdName}
+              value={props.inputValue}
+              onChange={props.changeValue}
+            />
+          </label>
         </div>
       </div>
     );

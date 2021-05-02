@@ -21,7 +21,7 @@ const NavItem = () => {
           </NavLink>
         </li>
         <li>
-          <NavLink to="/login">Login</NavLink>
+          <NavLink to="/order">Orders</NavLink>
         </li>
       </ul>
     );

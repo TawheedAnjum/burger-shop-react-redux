@@ -60,7 +60,7 @@ class App extends Component {
   submitHandeler = () => {
     this.props.history.push({
       pathname: '/chechout',
-      search:"?" +this.state.totalPrice
+      search:"?q=" +this.state.totalPrice
     });
   };
 

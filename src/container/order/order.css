@@ -1,0 +1,24 @@
+.order{
+    margin-top: 100px;
+    color: #333333;
+    text-align: center;
+}
+.orderTable{
+    margin-top: 50px;
+}
+
+.order table th{
+    width: 160px;
+    padding: 15px 0px;
+}
+.order table thead tr{
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: rgb(226, 226, 226);
+    font-size: 1rem;
+}
+.order table tbody tr{
+    font-weight: normal;
+    border-bottom: 1px solid #c2c2c2;
+}
+

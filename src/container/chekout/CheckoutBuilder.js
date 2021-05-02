@@ -11,7 +11,8 @@ class CheckoutBuilder extends Component {
   }
   componentDidMount(){
     const pram = new URLSearchParams(this.props.location.search);
-    this.setState({totalPrice: pram})
+    const q= pram.get("q");
+    this.setState({totalPrice: q})
   }
     render() {
         return (
@@ -26,7 +27,7 @@ class CheckoutBuilder extends Component {
               </p>
             </div>
             <CartModel>
-              <Checkout checkoutPrice={this.state.totalPrice}/>
+              <Checkout checkoutPrice={this.state.totalPrice} key="checkout" />
             </CartModel>
           </Aux>
         );
