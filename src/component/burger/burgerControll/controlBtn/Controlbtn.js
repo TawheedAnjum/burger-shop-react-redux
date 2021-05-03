@@ -8,7 +8,7 @@ const ControlBtn = (props) => {
           <button
             className="LessBtn btn"
             onClick={props.remove}
-            disabled={!props.btnVisible}
+            disabled={props.disabled}
           >
             -
           </button>

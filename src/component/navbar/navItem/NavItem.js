@@ -11,14 +11,13 @@ const NavItem = () => {
           </NavLink>
         </li>
         <li>
-          <NavLink
+          {/* <NavLink
             to="/checkout"
-            isActive={(match, location) =>
-              location.search
-            }
+            isActive={(match, location) => location.search}
           >
             Checkout
-          </NavLink>
+          </NavLink> */}
+          <NavLink to="/checkout">Checkout</NavLink>
         </li>
         <li>
           <NavLink to="/order">Orders</NavLink>

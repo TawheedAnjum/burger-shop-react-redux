@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import {connect} from "react-redux";
 
 import Aux from "../../hoc/Auxi";
 import CartModel from "../../component/UI/cartModel/CartModel";
@@ -6,14 +7,6 @@ import Checkout from "../../component/chekout/Checkout";
 
 
 class CheckoutBuilder extends Component {
-  state={
-    totalPrice: 0
-  }
-  componentDidMount(){
-    const pram = new URLSearchParams(this.props.location.search);
-    const q= pram.get("q");
-    this.setState({totalPrice: q})
-  }
     render() {
         return (
           <Aux>
@@ -27,11 +20,17 @@ class CheckoutBuilder extends Component {
               </p>
             </div>
             <CartModel>
-              <Checkout checkoutPrice={this.state.totalPrice} key="checkout" />
+              <Checkout checkoutPrice={this.props.tPrice} key="checkout" />
             </CartModel>
           </Aux>
         );
     }
 }
 
-export default CheckoutBuilder;
+const mapStateToProps = (state) => {
+  return {
+    tPrice: state.ing.totalPrice,
+  };
+};
+
+export default connect(mapStateToProps)(CheckoutBuilder);

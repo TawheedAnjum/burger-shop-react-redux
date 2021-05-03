@@ -10,6 +10,9 @@ const controls = [
   {label: "Meat", type: "meat"}
 ]
 const BurgerControll = (props) => {
+    const disabelBtnHandeler = (type) => {
+      return props.number[type] > 0
+    }
     return (
       <div className="burgerControll">
         <img src={burgerHeader} alt="burger header" className="burgerheader" />
@@ -31,7 +34,7 @@ const BurgerControll = (props) => {
                   props.more(crt.type);
                 }}
                 showNumber={props.number[crt.type]}
-                btnVisible={props.btnStatus}
+                disabled={!disabelBtnHandeler(crt.type)}
               />
             );
           })}

@@ -24,11 +24,13 @@ const Checkout = (props) => {
       .post("/order.json", values)
       .then(function (response) {
         console.log(response);
+      }).then(() => {
+         history.push("/order");
       })
       .catch(function (error) {
         console.log(error);
       });
-      history.push("/order");
+     
   }
 
     return (
