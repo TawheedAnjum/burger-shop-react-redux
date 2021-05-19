@@ -2,4 +2,4 @@
 
 <h1>Burger app</h1>
 
-<iframe width="360" height="204" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameBorder="0" src="https://imgflip.com/embed/5a3s8z"></iframe>
+![burger](https://user-images.githubusercontent.com/58458593/118775357-a8be6a80-b8a8-11eb-85d3-8267020a086a.gif)
