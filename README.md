@@ -15,6 +15,6 @@
 
 ## Screenshot
 
-# How to run
-### `npm i`
-### `npm start`
+## How to run
+`npm i`
+`npm start`
