@@ -1,13 +1,13 @@
 # Burger Shop with react redux
 
 ## Usage
-- 1. React
-- 2. Redux
-- 3. React-router-dom
-- 4. Axios
+- React
+- Redux
+- React-router-dom
+- Axios
 
 ## Database
--1. Firebase
+- Firebase
 
 
 ## First page demo
