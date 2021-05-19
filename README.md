@@ -15,7 +15,6 @@
 
 ## Screenshot
 
-## How to run
-Clone the repository 
-### install 'npm i'
-### run 'npm start'
+# How to run
+### `npm i`
+### `npm start`
